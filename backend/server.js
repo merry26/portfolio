@@ -11,11 +11,11 @@ app.use("/", router);
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}/`);
+  console.log(`Server is running at https://portfolio-seven-psi-73.vercel.app/`);
 });
 
 app.get('/', (req, res) => {
-  res.send(`Server is running at http://localhost:${PORT}`);
+  res.send(`Server is running at https://portfolio-seven-psi-73.vercel.app/`);
 });
 
 
