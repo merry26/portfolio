@@ -15,7 +15,7 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req, res) => {
-  res.send(`Server is running at https://portfolio-seven-psi-73.vercel.app/`);
+  res.send(`Server is running at ${PORT}`);
 });
 
 
